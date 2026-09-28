@@ -28,9 +28,8 @@ def get_data_from_csv(tablename, filename):
 
 def main():
     get_data_from_csv("customers", "north_data/customers_data.csv")
-    get_data_from_csv("orders", "north_data/orders_data.csv")
     get_data_from_csv("employees", "north_data/employees_data.csv")
-
+    get_data_from_csv("orders", "north_data/orders_data.csv")
 
 if __name__ == "__main__":
     main()
